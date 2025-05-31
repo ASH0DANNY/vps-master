@@ -17,13 +17,13 @@ import {
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import useAuth from 'hooks/useAuth';
 import ConfirmationDialog from 'utils/alerts/Confirmation';
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router';
 import { Product } from 'types/product';
 import { addDoc, collection, doc, getDoc } from 'firebase/firestore';
 import { db } from 'firebaseConfig';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router';
 
 const serverSpecification: Product[] = [
   {
