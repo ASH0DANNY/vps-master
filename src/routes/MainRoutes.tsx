@@ -13,8 +13,8 @@ const MaintenanceUnderConstruction = Loadable(lazy(() => import('pages/maintenan
 const MaintenanceComingSoon = Loadable(lazy(() => import('pages/maintenance/coming-soon/coming-soon')));
 
 // render - sample page
-const ProductsPage = Loadable(lazy(() => import('pages/products/productsPage')));
-const MyOrdersPage = Loadable(lazy(() => import('pages/orders/myOrdersPage')));
+const ProductsPage = Loadable(lazy(() => import('pages/products/ProductsPage')));
+const MyOrdersPage = Loadable(lazy(() => import('pages/orders/MyOrdersPage')));
 const AllClientsPage = Loadable(lazy(() => import('pages/clients/allClientsPage')));
 
 // ==============================|| MAIN ROUTES ||============================== //

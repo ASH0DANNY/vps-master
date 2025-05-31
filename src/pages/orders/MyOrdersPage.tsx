@@ -16,7 +16,7 @@ interface Order {
     serverUname: string;
 }
 
-const myOrdersPage = () => {
+const MyOrdersPage = () => {
     const [userOrders, setUserOrders] = useState<Order[]>();
 
     useEffect(() => {
@@ -148,4 +148,4 @@ const myOrdersPage = () => {
     );
 };
 
-export default myOrdersPage;
+export default MyOrdersPage;

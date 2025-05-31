@@ -78,7 +78,7 @@ interface userType {
   date: Date;
 }
 
-const productsPage = () => {
+const ProductsPage = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [seletedproduct, setSeletedproduct] = useState<Product | null | undefined>();
   const [userDetails, setUserDetails] = useState<userType>();
@@ -321,4 +321,4 @@ const productsPage = () => {
   );
 };
 
-export default productsPage;
+export default ProductsPage;
